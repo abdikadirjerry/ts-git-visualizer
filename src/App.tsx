@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Commit, Branch, GitGraphNode } from './types/git';
+import type { Commit, Branch, GitGraphNode } from './types/git';
 
 const INITIAL_COMMIT: Commit = {
   id: 'c1a89f0',
